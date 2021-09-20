@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Preset */
+
+.mt-30px{
+    margin-top: 30px;
+}
+
+.mb-10px{
+    margin-bottom: 10px;
+}
+
+.mb-30px{
+    margin-bottom: 30px;
+}
+
+.pxl20{
+    padding-right: 20px;
+}
+
+.pxt25{
+    padding-top: 25px;
+}
+
+.pxr20{
+    padding-left: 20px;
+}
+
+.pxb25{
+    padding-bottom: 25px;
+}
+
+/* Header */
+
+.brand img{
+    width: 165px;
+    display: inline-block;
+}
+
+nav ul li{
+    padding-top: 30px;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #b1b1b1;
+}
+
+/* Main content */
+
+.main-content{
+    width: 60%;
+}
+
+.mains-content{
+    background-color: #e1d67a;
+    width: 100%;
+    height: 400px;
+}
+
+.debug-box{
+    height: 450px;
+    background: #abcfe7;
+}
+
+/* Sidebar */
+
+.sidebar,
+.main-content{
+    float: left;
+}
+
+.sidebar{
+    width: 20%;
+    background: #0484fb;
+    height: 100%;
+}
+
+.main-content{
+    width: 60%;
+}
+
+.mains-center-content{
+    height: 90px;
+    width: 100%;
+    background: #abcfe7;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #8801fe;    
+}
